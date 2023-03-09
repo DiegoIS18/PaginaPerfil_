@@ -249,11 +249,6 @@ footer
     margin-right: 10px;
 }
 
-.XD
-{
-    width: 10%;
-}
-
 .uno, .dos
 {
     margin-right: 6px;
@@ -290,4 +285,40 @@ footer
     margin-right: 5px;
     background-color: #737373;
     border-radius: 150px;
+}
+.nav{
+    background-color: #313635;
+    justify-content: space-between;
+    height: 100px;
+    
+}
+
+.nav-title{
+    color: rgb(255, 255, 255);
+    width: 100px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    float: center;
+    padding-left: 10%;
+    font-size: 17px;
+    align-items:initial;
+    justify-content: end;
+    
+}
+
+.nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+
+.btn {
+    background: cyan;
+    box-shadow: 10px 5px 5px black;
 }
